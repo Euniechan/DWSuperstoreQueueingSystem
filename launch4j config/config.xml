@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\User\Documents\NetBeansProjects\DWSuperstoreQueueingSystem\dist\DWSuperstoreQueueingSystem.jar</jar>
+  <outfile>C:\Users\User\Documents\NetBeansProjects\DWSuperstoreQueueingSystem\dist\DWSuperstore.exe</outfile>
+  <errTitle>Please install java first.</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\User\Documents\NetBeansProjects\DWSuperstoreQueueingSystem\src\DWSuperstoreQueueing System\DIGITAL WORLD icon.ico</icon>
+  <singleInstance>
+    <mutexName>DWSuperstore</mutexName>
+    <windowTitle>Digital World Superstore</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>true</requiresJdk>
+    <requires64Bit>true</requires64Bit>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>Digital World Superstore Queuing Software</fileDescription>
+    <copyright>NIL</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>Digital World Superstore</productName>
+    <companyName>DW Company</companyName>
+    <internalName>Digital World Superstore</internalName>
+    <originalFilename>DWSuperstore.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
